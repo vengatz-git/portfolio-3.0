@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080a0d">
+  <meta name="description" content="Guts is a Software Engineer building thoughtful full-stack web applications, including InspireStack.">
+  <meta property="og:title" content="Guts | Software Engineer">
+  <meta property="og:description" content="A software engineer's interactive lab for full-stack web applications and product-minded engineering.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://your-domain.example">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23e9ff5c'/%3E%3Cpath d='M18 18h28v8H27v6h16v8H27v6h19v8H18z' fill='%23080a0d'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Guts | Software Engineer</title>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <header class="site-header" id="site-header">
+    <div class="nav-shell">
+      <a class="brand" href="#home" aria-label="Guts home">
+        <span class="brand-mark">G</span>
+        <span class="brand-copy"><strong>Guts</strong><small>Software Engineer</small></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a class="nav-link is-active" href="#home" data-section="home">Home</a>
+        <a class="nav-link" href="#about" data-section="about">About</a>
+        <a class="nav-link" href="#projects" data-section="projects">Projects</a>
+        <a class="nav-link" href="#skills" data-section="skills">Skills</a>
+        <a class="nav-link" href="#contact" data-section="contact">Contact</a>
+      </nav>
+      <a class="nav-availability" href="#contact"><span class="status-dot"></span> Full-stack / product systems</a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-controls="mobile-menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <nav aria-label="Mobile navigation">
+        <a href="#home" data-section="home"><span>01</span>Home</a>
+        <a href="#about" data-section="about"><span>02</span>About</a>
+        <a href="#projects" data-section="projects"><span>03</span>Projects</a>
+        <a href="#skills" data-section="skills"><span>04</span>Skills</a>
+        <a href="#contact" data-section="contact"><span>05</span>Contact</a>
+      </nav>
+      <p>Scroll, tap, explore.</p>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero section-pad" id="home" aria-labelledby="hero-title">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span>01</span> Software engineer / full-stack web</p>
+          <h1 id="hero-title">Software that<br><em>feels</em> as good<br>as it works.</h1>
+          <p class="hero-lede">I build modern web applications with enough care in the details that the product makes its own case.</p>
+          <div class="hero-actions">
+            <a class="button button-primary magnetic" href="#projects" data-cursor-label="Explore"><span>View projects</span><i>↘</i></a>
+            <a class="button button-quiet magnetic" href="#contact" data-cursor-label="Say hello"><span>Contact me</span><i>↗</i></a>
+          </div>
+          <div class="hero-note"><span class="line"></span><span>Currently shaping <strong>InspireStack</strong></span></div>
+        </div>
+
+        <div class="hero-stage reveal reveal-delay" data-tilt-card>
+          <div class="stage-topline"><span>LAB / 001</span><span class="stage-live"><i></i> interactive</span></div>
+          <div class="stage-terminal" data-parallax="0.08">
+            <div class="terminal-bar"><span></span><span></span><span></span><small>inspire-stack.ts</small></div>
+            <div class="terminal-code" aria-label="A preview of application architecture">
+              <p><b class="code-muted">01</b><span class="code-key">const</span> product = <span class="code-string">"InspireStack"</span></p>
+              <p><b class="code-muted">02</b><span class="code-key">await</span> discover({</p>
+              <p><b class="code-muted">03</b>&nbsp;&nbsp;visuals: <span class="code-value">true</span>,</p>
+              <p><b class="code-muted">04</b>&nbsp;&nbsp;people: <span class="code-value">"connected"</span>,</p>
+              <p><b class="code-muted">05</b>&nbsp;&nbsp;friction: <span class="code-value">"low"</span></p>
+              <p><b class="code-muted">06</b>})</p>
+              <p><b class="code-muted">07</b><span class="code-comment">// make the useful thing delightful</span><span class="caret"></span></p>
+            </div>
+          </div>
+          <div class="orbit orbit-one" data-parallax="0.17"><span class="orbit-label">TypeScript</span></div>
+          <div class="orbit orbit-two" data-parallax="0.25"><span class="orbit-label">Postgres</span></div>
+          <div class="orbit orbit-three" data-parallax="0.11"><span class="orbit-label">Next.js</span></div>
+          <div class="stage-footer"><span>product thinking</span><span>↗  scroll to inspect</span></div>
+        </div>
+      </div>
+      <div class="hero-foot"><span>Scroll to explore</span><span class="scroll-line"></span><span>Full-stack / product / systems</span></div>
+    </section>
+
+    <section class="about section-pad section-dark" id="about" aria-labelledby="about-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow"><span>02</span> The person behind the interface</p>
+        <h2 id="about-title">I like the space<br>between <em>idea</em> and outcome.</h2>
+      </div>
+      <div class="about-layout">
+        <div class="about-copy reveal">
+          <p class="lead-copy">I'm Guts, a Software Engineer focused on full-stack web development. I enjoy taking a fuzzy product problem, giving it a clear shape, and then building the reliable system underneath.</p>
+          <p class="body-copy">That means caring about the first click and the last database query. I use interaction as a way to make complexity legible, not to hide it.</p>
+          <div class="about-signature"><span>G</span><div><strong>Build with intent.</strong><small>Leave room for the next idea.</small></div></div>
+        </div>
+        <div class="mindset-grid reveal reveal-delay" aria-label="Engineering mindset">
+          <button class="mindset-card is-selected" type="button" aria-expanded="true" data-mindset="build">
+            <span class="card-index">01</span><span class="card-icon">↗</span><strong>Build</strong><span class="card-prompt">Complete products, not isolated UI.</span>
+            <span class="card-detail">I connect the interface to the data, auth, media, and deployment decisions that make a product feel whole.</span>
+          </button>
+          <button class="mindset-card" type="button" aria-expanded="false" data-mindset="design">
+            <span class="card-index">02</span><span class="card-icon">✳</span><strong>Design</strong><span class="card-prompt">Make the useful path feel obvious.</span>
+            <span class="card-detail">Usability is part of the implementation. Small interactions should clarify the product instead of competing with it.</span>
+          </button>
+          <button class="mindset-card" type="button" aria-expanded="false" data-mindset="engineer">
+            <span class="card-index">03</span><span class="card-icon">⌁</span><strong>Engineer</strong><span class="card-prompt">Make the underlying system dependable.</span>
+            <span class="card-detail">Thoughtful boundaries, typed data, and clear failure states keep ambitious features maintainable as they grow.</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-section section-pad" id="projects" aria-labelledby="project-title">
+      <div class="section-heading heading-row reveal">
+        <div><p class="eyebrow"><span>03</span> Featured build / case study</p><h2 id="project-title">Inspire<span>Stack</span></h2></div>
+        <p class="heading-aside">A visual discovery platform built as a serious full-stack application.</p>
+      </div>
+      <div class="project-layout">
+        <div class="project-visual reveal" data-tilt-card>
+          <div class="project-visual-head"><span class="project-breadcrumb">inspirestack / explore</span><span class="project-count">01 — 03</span></div>
+          <div class="project-view-tabs" role="tablist" aria-label="Project preview views">
+            <button class="view-tab is-active" type="button" role="tab" aria-selected="true" data-view="feed">Discovery feed</button>
+            <button class="view-tab" type="button" role="tab" aria-selected="false" data-view="profile">Profile view</button>
+            <button class="view-tab" type="button" role="tab" aria-selected="false" data-view="board">Saved board</button>
+          </div>
+          <div class="product-window" data-parallax="0.06">
+            <div class="product-topbar"><span class="product-logo">is</span><span class="product-search">⌕&nbsp; Search visual ideas</span><span class="product-avatar">G</span></div>
+            <div class="product-content" id="product-content">
+              <div class="product-title-row"><div><span class="product-kicker">Curated for you</span><h3>Find something<br>worth saving.</h3></div><span class="product-filter">Filter <b>⌄</b></span></div>
+              <div class="masonry-preview" aria-label="Masonry visual discovery feed">
+                <div class="masonry-column"><div class="visual-tile tile-sun"><span>01</span><b>Light / form</b></div><div class="visual-tile tile-ink"><span>02</span><b>Quiet geometry</b></div></div>
+                <div class="masonry-column"><div class="visual-tile tile-sand"><span>03</span><b>Everyday objects</b></div><div class="visual-tile tile-lilac"><span>04</span><b>Soft systems</b></div></div>
+                <div class="masonry-column"><div class="visual-tile tile-green"><span>05</span><b>Field notes</b></div><div class="visual-tile tile-red"><span>06</span><b>Signal / noise</b></div></div>
+              </div>
+            </div>
+            <button class="feature-hotspot hotspot-one" type="button" data-feature="feed" aria-label="Explore masonry feed hotspot">+</button>
+            <button class="feature-hotspot hotspot-two" type="button" data-feature="media" aria-label="Explore media management hotspot">+</button>
+            <button class="feature-hotspot hotspot-three" type="button" data-feature="social" aria-label="Explore social features hotspot">+</button>
+          </div>
+          <div class="feature-callout" id="feature-callout"><span class="callout-pin">01</span><div><strong>Masonry discovery</strong><p>Content finds its rhythm through a visual feed that keeps browsing feeling open-ended.</p></div><button type="button" class="callout-close" aria-label="Close feature detail">×</button></div>
+        </div>
+
+        <div class="project-copy reveal reveal-delay">
+          <div class="project-label"><span class="status-dot"></span> Full-stack application</div>
+          <p class="project-description">A Pinterest-inspired visual discovery platform for collecting, organizing, and sharing the things that spark a direction.</p>
+          <div class="stack-tags" aria-label="InspireStack technologies"><span>Next.js</span><span>React</span><span>TypeScript</span><span>PostgreSQL</span><span>Drizzle</span><span>Auth.js</span><span>Cloudinary</span><span>Vercel</span></div>
+          <div class="project-details">
+            <button type="button" class="detail-row is-open" aria-expanded="true"><span>01</span><strong>Why it matters</strong><i>↗</i><p>A product is more than the feature list. InspireStack is an exercise in making a dense system feel calm, useful, and distinctly human.</p></button>
+            <button type="button" class="detail-row" aria-expanded="false"><span>02</span><strong>What it handles</strong><i>↗</i><p>Authentication, profiles, media uploads, pins, boards, search, comments, replies, and profile customization.</p></button>
+            <button type="button" class="detail-row" aria-expanded="false"><span>03</span><strong>What I optimized for</strong><i>↗</i><p>Clear data boundaries, type-safe access, resilient media workflows, and a discovery experience that rewards curiosity.</p></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="architecture-block reveal">
+        <div class="architecture-intro"><p class="eyebrow"><span>03A</span> Pull the system apart</p><h3>Architecture, made <em>legible.</em></h3><p>Select a node. The stack explains itself.</p></div>
+        <div class="architecture-map" aria-label="Interactive InspireStack architecture">
+          <div class="arch-column arch-primary">
+            <button class="arch-node is-active" type="button" data-arch="next"><span class="node-dot"></span><b>Frontend</b><strong>Next.js / React</strong><small>the product surface</small></button>
+            <span class="arch-arrow">↓</span>
+            <button class="arch-node" type="button" data-arch="server"><span class="node-dot"></span><b>Logic</b><strong>Server Actions / APIs</strong><small>the connective tissue</small></button>
+            <span class="arch-arrow">↓</span>
+            <button class="arch-node" type="button" data-arch="drizzle"><span class="node-dot"></span><b>Data access</b><strong>Drizzle ORM</strong><small>the typed boundary</small></button>
+            <span class="arch-arrow">↓</span>
+            <button class="arch-node" type="button" data-arch="postgres"><span class="node-dot"></span><b>Persistence</b><strong>PostgreSQL</strong><small>the source of truth</small></button>
+          </div>
+          <div class="arch-rail" aria-hidden="true"><span></span><span></span><span></span></div>
+          <div class="arch-column arch-integrations">
+            <button class="arch-node" type="button" data-arch="cloudinary"><span class="node-dot"></span><b>Media</b><strong>Cloudinary</strong><small>images in motion</small></button>
+            <button class="arch-node" type="button" data-arch="auth"><span class="node-dot"></span><b>Identity</b><strong>Auth.js</strong><small>people, securely</small></button>
+            <button class="arch-node" type="button" data-arch="neon"><span class="node-dot"></span><b>Infrastructure</b><strong>Neon / Vercel</strong><small>ship the whole thing</small></button>
+          </div>
+          <div class="arch-explanation" id="arch-explanation"><span>Selected node</span><strong>Next.js / React</strong><p>The interface and routing layer: fast page transitions, server-rendered surfaces, and a component system that stays close to the product language.</p></div>
+        </div>
+      </div>
+
+      <div class="journey-block reveal">
+        <div class="journey-heading"><p class="eyebrow"><span>03B</span> Development journey</p><h3>Built in <em>layers.</em></h3></div>
+        <div class="timeline" role="tablist" aria-label="InspireStack development journey">
+          <button class="timeline-step is-active" type="button" role="tab" aria-selected="true" data-step="foundation"><span>01</span><b>Foundation</b><small>Auth + database</small></button>
+          <button class="timeline-step" type="button" role="tab" aria-selected="false" data-step="core"><span>02</span><b>Core product</b><small>Pins + uploads</small></button>
+          <button class="timeline-step" type="button" role="tab" aria-selected="false" data-step="discovery"><span>03</span><b>Discovery</b><small>Feed + masonry</small></button>
+          <button class="timeline-step" type="button" role="tab" aria-selected="false" data-step="organization"><span>04</span><b>Organization</b><small>Boards + saves</small></button>
+          <button class="timeline-step" type="button" role="tab" aria-selected="false" data-step="community"><span>05</span><b>Community</b><small>Comments + replies</small></button>
+          <button class="timeline-step" type="button" role="tab" aria-selected="false" data-step="profiles"><span>06</span><b>Discovery</b><small>Search + profiles</small></button>
+        </div>
+        <div class="timeline-detail" id="timeline-detail"><span>Current layer / 01</span><h4>Start with trust.</h4><p>Authentication and a dependable data model create the floor every other InspireStack feature can stand on.</p></div>
+      </div>
+    </section>
+
+    <section class="skills section-pad section-dark" id="skills" aria-labelledby="skills-title">
+      <div class="section-heading heading-row reveal"><div><p class="eyebrow"><span>04</span> Tools with a reason</p><h2 id="skills-title">The stack is<br>a <em>conversation.</em></h2></div><p class="heading-aside">Select a technology to see the role it plays, not just the logo it wears.</p></div>
+      <div class="tech-explorer reveal">
+        <div class="tech-categories" role="tablist" aria-label="Technology categories">
+          <button class="category-tab is-active" type="button" role="tab" aria-selected="true" data-category="frontend">Frontend <span>07</span></button>
+          <button class="category-tab" type="button" role="tab" aria-selected="false" data-category="backend">Backend <span>04</span></button>
+          <button class="category-tab" type="button" role="tab" aria-selected="false" data-category="database">Database <span>03</span></button>
+          <button class="category-tab" type="button" role="tab" aria-selected="false" data-category="infrastructure">Infrastructure <span>04</span></button>
+        </div>
+        <div class="tech-content"><div class="tech-list" id="tech-list"></div><div class="tech-detail" id="tech-detail" aria-live="polite"><span class="detail-label">Selected technology</span><div class="detail-orb" id="detail-orb">TS</div><h3 id="tech-name">TypeScript</h3><p id="tech-description">The shared language between product intent and implementation, keeping the application understandable as it grows.</p><div class="detail-meta"><span id="tech-category">Frontend</span><span>01 / 18 technologies</span></div><div class="related-tech" id="related-tech"><span>Connected to</span><div></div></div></div></div>
+      </div>
+    </section>
+
+    <section class="contact section-pad" id="contact" aria-labelledby="contact-title">
+      <div class="contact-layout">
+        <div class="contact-copy reveal"><p class="eyebrow"><span>05</span> Start a conversation</p><h2 id="contact-title">Have a good<br><em>problem?</em></h2><p>Tell me what you're trying to make, untangle, or understand. A clear brief is welcome; a rough thought is fine too.</p><div class="contact-links"><a class="contact-link" href="mailto:hello@yourdomain.com"><span>Email</span><strong>hello@yourdomain.com</strong><i>↗</i></a><a class="contact-link" href="#home"><span>Elsewhere</span><strong>GitHub / LinkedIn</strong><i>↗</i></a></div></div>
+        <div class="form-wrap reveal reveal-delay"><div class="form-topline"><span>Message intake</span><span>Usually a good place to start</span></div><form id="contact-form" novalidate><div class="form-field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" placeholder="Jane Doe" required><span class="field-error" data-error-for="name"></span></div><div class="form-field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" placeholder="jane@example.com" required><span class="field-error" data-error-for="email"></span></div><div class="form-field"><label for="message">What are you thinking about?</label><textarea id="message" name="message" rows="4" placeholder="A product, a system, a particularly stubborn bug..." required></textarea><span class="field-error" data-error-for="message"></span></div><div class="form-footer"><p>By sending, you start a low-pressure conversation.</p><button class="button button-primary magnetic" type="submit"><span class="submit-label">Send message</span><span class="submit-loading" hidden>Sending...</span><i>↗</i></button></div><div class="form-status" id="form-status" role="status" aria-live="polite"></div></form><div class="form-success" id="form-success" hidden><div class="success-mark">✓</div><p class="eyebrow"><span>Message sent</span></p><h3>Thanks for reaching out.</h3><p>I'll get back to you as soon as possible. In the meantime, keep making the useful thing delightful.</p><button class="button button-quiet" type="button" id="reset-form">Send another message <i>↗</i></button></div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-brand"><span class="brand-mark">G</span><span>Guts / Software Engineer</span></div><p>Built with HTML, CSS, JavaScript, and a suspicious amount of attention to detail.</p><button class="footer-egg" type="button" id="egg-trigger">Press G</button><span>© <span id="current-year"></span></span></footer>
+
+  <div class="terminal-drawer" id="terminal-drawer" role="dialog" aria-modal="true" aria-labelledby="terminal-title" hidden><div class="terminal-panel"><div class="terminal-bar"><span></span><span></span><span></span><button type="button" id="terminal-close" aria-label="Close developer console">×</button></div><div class="terminal-body"><p class="terminal-prompt">guts@portfolio:~$ <span id="terminal-title">whoami</span></p><p class="terminal-output">Software Engineer.<br>Full-stack by practice.<br>Product-minded by default.</p><p class="terminal-prompt">guts@portfolio:~$ <span class="terminal-caret"></span></p><small>That was the easter egg. Press Escape to close.</small></div></div></div>
+  <script src="js/script.js"></script>
+</body>
+</html>
